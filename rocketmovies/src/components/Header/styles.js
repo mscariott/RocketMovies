@@ -53,9 +53,11 @@ export const Profile = styled(Link)`
    
 `
 
-export const Logout = styled.div`
+export const Logout = styled.button`
   display: flex;
   justify-content: right;
+  border: none;
+  background: none;
       a{
         color: ${({ theme }) => theme.COLORS.GRAY_PLACEHOLDER};  
         font-size: 1.4rem;

@@ -1,14 +1,17 @@
 require("express-async-errors")
-const cors = require('cors')
 
 
 const databaseRun = require("./database/sqlite")
 const AppError = require("./utils/AppError")
+
+const cors = require('cors')
 const express = require('express')
+
 const uploadConfig = require('./configs/upload')
 const routes = require("./routes")
 
 const app = express()
+
 app.use(cors())
 app.use(express.json())
 

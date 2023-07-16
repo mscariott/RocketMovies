@@ -48,12 +48,6 @@ export function Preview() {
       </Content>
 
 
-
-
-
-
-
-
     </Container>
   )
 }

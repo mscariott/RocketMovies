@@ -1,7 +1,9 @@
 import { Container } from './styles'
 import { Tags } from '../Tags'
-import {Link} from 'react-router-dom'
 import {Score} from '../Score'
+
+import {Link} from 'react-router-dom'
+
 
 
 export function Notes({ data, ...rest }) {
